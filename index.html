@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <title>Demo</title>
+</head>
+<body>
+    <div class="contents">
+        <div class="header">
+            <div class="header-top">株式会社わんわん倶楽部</div>
+            <div class="menu">
+                <a href="#main">
+                    <div class="menu-button">犬紹介</div>
+                </a>
+                <a href="#contact">
+                    <div class="menu-button">お問い合わせ</div>
+                </a>
+                <a href="#news">
+                    <div class="menu-button">NEWS</div>
+                </a>
+            </div>
+        </div>
+        <div id="main" class="main-container">
+            <div class="main-title">
+                〜我が家の犬紹介〜
+            </div>
+            <div class="image-container">
+                <img src="/image/gabu.JPG">
+            </div>
+            <table>
+                <tr>
+                    <th>名前</th><td>がぶ</td>
+                </tr>
+                <tr>
+                    <th>犬種</th><td>ポメラニアン</td>
+                </tr>
+                <tr>
+                    <th>年齢</th><td>1歳</td>
+                </tr>
+                <tr>
+                    <th>好きなおやつ</th><td>ジャーキー</td>
+                </tr>
+                <tr>
+                    <th>マイブーム</th><td>走り回ること</td>
+                </tr>
+                <tr>
+                    <th>嫌いなこと</th><td>お風呂と歯磨き</td>
+                </tr>
+             </table>
+        </div>
+        <div id="contact" class="contact-container">
+            <form class="form-container">
+                <div class="form-title">
+                    お問い合わせフォーム
+                </div>
+                <div class="form-contents">
+                    <label for="name">お名前</label>
+                    <input type="text" placeholder="お名前" id="name" required>
+                </div>
+                <div class="form-contents">
+                    <label for="breed">犬種</label>
+                    <input type="text" placeholder="犬種" id="breed" required>
+                </div>
+                <div class="form-contents">
+                    <label for="age">年齢</label>
+                    <input type="text" placeholder="年齢" id="age" required>
+                </div>
+                <div class="form-contents">
+                    <label for="content">内容</label>
+                    <textarea placeholder="内容" id="content"></textarea>
+                </div>
+            </form>
+        </div>
+        <div id="news" class="news">
+            <div class="news-title">NEWS</div>
+
+        </div>
+    </div>
+</body>
+</html>
