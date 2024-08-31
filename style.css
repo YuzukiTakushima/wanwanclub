@@ -88,6 +88,8 @@ th, td {
     align-items: center;
 }
 
+
+
 .form-title {
     font-size: 20px;
 }
@@ -116,12 +118,7 @@ textarea {
     height: 100px;
 }
 
-.news {
-    background-color:#CDE6C7;
-    height: 300px;
-    padding:20px 30px;
-    font-weight: bold;
-}
+
 
 .news-list {
     list-style: none outside;
